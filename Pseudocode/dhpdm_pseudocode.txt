@@ -1,5 +1,5 @@
 PROGRAM: Digital Healthcare Patient Data Management System (DHPDMS)
-AUTHOR: Alex Alimamy Debe Kamara (Abubakar Idrisu Bangura)
+AUTHOR: Alex Alimamy Debe Kamara
 STUDENT ID: 905006307
 COURSE: PROG101 - Principles of Programming Logic and Design
 
