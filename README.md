@@ -1,11 +1,11 @@
 # PROG101 — Digital Healthcare Patient Data Management System
 
-**Project:** Digital Healthcare Patient Data Management System (DHPDMS)  
-**Student:** Alex Alimamy Debe Kamara (Abubakar Idrisu Bangura)  
-**Student ID:** 905006307  
-**Course:** PROG101 — Principles of Programming Logic and Design  
-**Institution:** Limkokwing University of Creative Technology, Sierra Leone  
-**Examiner:** Elijah Fullah  
+Project: Digital Healthcare Patient Data Management System (DHPDMS)  
+Student: Alex Alimamy Debe Kamara
+Student ID: 905006307  
+Course: PROG101 — Principles of Programming Logic and Design  
+Institution: Limkokwing University of Creative Technology, Sierra Leone  
+Examiner: Elijah Fullah  
 
 ## Overview
 
@@ -15,8 +15,8 @@ This project contains **no real patient data**. It is not a clinical system. Any
 
 ## SDG alignment
 
-- **SDG 3 — Good Health and Well-being:** supports faster retrieval and continuity of health information.
-- **SDG 9 — Industry, Innovation and Infrastructure:** demonstrates adaptable, open digital infrastructure for public services.
+- SDG 3 — Good Health and Well-being: supports faster retrieval and continuity of health information.
+- SDG 9 — Industry, Innovation and Infrastructure:** demonstrates adaptable, open digital infrastructure for public services.
 
 ## Modules
 

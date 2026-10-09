@@ -1,0 +1,18 @@
+START & Initialize: Set MAX_PATIENTS = 100, initialize 6 parallel arrays (patientID, fullName, age, gender, contactNumber, diagnosisHistory), recordCount = 0, and isSystemRunning = TRUE.  
+​Main Loop: While isSystemRunning == TRUE:  
+​Display menu (1. Register, 2. Search, 3. Update, 4. Exit) and read menuChoice.  
+​Choice 1 \rightarrow Call RegisterPatient().  
+​Choice 2 \rightarrow Call SearchPatient().  
+​Choice 3 \rightarrow Call UpdateRecord().  
+​Choice 4 \rightarrow Set isSystemRunning = FALSE.  
+​Other \rightarrow Display error.  
+​ValidatePatientInput(pID, name, age): Return TRUE if pID/name are not empty and age is between 0–130; else FALSE.
+​FindPatientIndex(targetID): Loop index from 0 to recordCount - 1. Return index if matched; else return -1.
+​RegisterPatient():
+​If recordCount >= 100, show full error.  
+​Read details (pID, name, age, gender, phone, diagnosis).  
+​If invalid input or ID exists (FindPatientIndex != -1), show error.  
+​Save inputs into arrays at recordCount, increment recordCount by 1, and show success.  
+​SearchPatient(): Read targetID. Find position = FindPatientIndex(targetID). If -1, show "Not found"; else display details from arrays.  
+​UpdateRecord(): Read targetID. Find position = FindPatientIndex(targetID). If -1, show error; else read newEntry, append to diagnosisHistory[position], and show success.  
+​END PROGRAM  
